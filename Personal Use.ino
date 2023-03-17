@@ -18,14 +18,14 @@ void setup() {
 
 void loop() {
   if (digitalRead(0) == HIGH) {
-    DigiKeyboard.print("passwordavenger123$");
+    DigiKeyboard.print("passwordabcd1234");
     DigiKeyboard.delay(200);                        //Personal Password
     DigiKeyboard.sendKeyStroke(KEY_ENTER);
     DigiKeyboard.delay(2000);
   }
 
   if (digitalRead(1) == HIGH) {
-    DigiKeyboard.print("password290524");
+    DigiKeyboard.print("password1234abcd");
     DigiKeyboard.delay(200);                        //Personal Pin
     DigiKeyboard.sendKeyStroke(KEY_ENTER);
     DigiKeyboard.delay(2000);
