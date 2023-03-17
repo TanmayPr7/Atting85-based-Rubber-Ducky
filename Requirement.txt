@@ -5,3 +5,12 @@
 4.Female Header Pins
 5.Wire Cabels
 6.Programming Cabel
+
+# Library Required
+1.DigiKeyboard.h
+
+# Hardware Components
+1.Pair of Scissors
+2.Soldering Iron
+3.Masking Tape
+4.Cardboard or Sunboard
