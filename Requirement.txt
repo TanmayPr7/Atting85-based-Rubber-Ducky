@@ -14,3 +14,5 @@
 2.Soldering Iron
 3.Masking Tape
 4.Cardboard or Sunboard
+
+#That's it these are all the basic requirements for this project:)
