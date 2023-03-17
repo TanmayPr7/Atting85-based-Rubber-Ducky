@@ -1,0 +1,21 @@
+# This is an Atting85 Rubber Ducky project, which uses a microcontroller(Attiny85 USB), push buttons,
+PCb, 10k resistors, etc. This Rubber Ducky is programmed for four different purposes:
+i.Automatic Use
+ii.Perosonal Use
+iii.4-digit Pin Use
+iv.6-digit Pin Use
+When Rubber Ducky is connected to any system via USB port, either it automatically access and can use
+differnet keyboard keys
+
+# It basically works with RF(Rc) signals, Rc transmitter first reads the position of its joystick's
+and according to the position of its joysticks it transmittes RF signals, which later recived by Rc
+reciver. After, reciving signals from transmitter reciver according to its source code or program
+checks the signal and works according to the code and makes the servo or any other part connected
+to reciver moves according to source code.
+
+# In this case Rc transmitter transmites values, which later recived by Rc reciver and then reciver
+according to its source code make the robotic arm move according to program. Ex. If transmitter sends
+signal to make the robotic arm move in forward direction then reciver will recive the signal and make
+the robotic arm move in forward direction accoeding to its program.
+
+# This the baisc working principle of Attiny85 based Rubber Ducky Project:)
