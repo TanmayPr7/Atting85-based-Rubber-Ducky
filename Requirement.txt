@@ -1,0 +1,7 @@
+# Components Required
+1.Attiny85 USB Developement Board
+2.Push Button
+3.Prototyping Circuit Board(PCB)
+4.Female Header Pins
+5.Wire Cabels
+6.Programming Cabel
