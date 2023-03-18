@@ -1,21 +1,23 @@
-# This is an Atting85 Rubber Ducky project, which uses a microcontroller(Attiny85 USB), push buttons,
-PCb, 10k resistors, etc. This Rubber Ducky is programmed for four different purposes:
+# This is an Atting85 USB Developemnet based Rubber Ducky project, which uses a microcontroller(Attiny85 USB),
+push buttons, PCb, 10k resistors, etc. This Rubber Ducky is programmed for four different purposes:
 i.Automatic Use
 ii.Perosonal Use
 iii.4-digit Pin Use
 iv.6-digit Pin Use
-When Rubber Ducky is connected to any system via USB port, either it automatically access and can use
-differnet keyboard keys
+When Rubber Ducky is connected to any system via USB port,on ducky attiny85 is connected to multiple push buttons,
+on pressing one the push button it works according to the source code and enter commands via USB ports into
+systems and performs different desiered tasks.
 
-# It basically works with RF(Rc) signals, Rc transmitter first reads the position of its joystick's
-and according to the position of its joysticks it transmittes RF signals, which later recived by Rc
-reciver. After, reciving signals from transmitter reciver according to its source code or program
-checks the signal and works according to the code and makes the servo or any other part connected
-to reciver moves according to source code.
+# It basically works by controlling the keyboard action with the help of "DigiKeyboard.h" Library, attiny first reads
+the position and state of every push button and works accordingly & when any of the push buttons is pressed by the user,
+it inputs commands into the system acoording to the source. After those commands enters the system it controlls the
+keyboard commands in the system and perform tasks for which it is programmed, after reciving keyboard commands from
+ducky system acts and perform tasks accordingly.
 
-# In this case Rc transmitter transmites values, which later recived by Rc reciver and then reciver
-according to its source code make the robotic arm move according to program. Ex. If transmitter sends
-signal to make the robotic arm move in forward direction then reciver will recive the signal and make
-the robotic arm move in forward direction accoeding to its program.
+
+# In this case ducky sends the commands into system via USB port, which later recived by the system and them system
+works accordingly and perform the commanded tasks into the system. Ex. If ducky sends
+command to open notepad and then wait for 1000ms and type "You are Hacked!", then system will recive this command
+via USB port and will perform the tasks acording to commands.
 
 # This the baisc working principle of Attiny85 based Rubber Ducky Project:)
